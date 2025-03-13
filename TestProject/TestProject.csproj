@@ -5,6 +5,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <!-- 启用生成编译器生成文件的功能 -->
+	  <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+	  <!-- 指定生成文件的输出路径 -->
+	  <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)GeneratedFiles</CompilerGeneratedFilesOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
