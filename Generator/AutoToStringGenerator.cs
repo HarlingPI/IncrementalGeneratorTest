@@ -60,8 +60,6 @@ namespace Generator
                     }
                     // 获取访问修饰符
                     typeinfo.AccessModifier = Utils.GetAccessModifier(classSymbol.DeclaredAccessibility);
-                    //获取类名
-                    typeinfo.NamespaceName = tds.Identifier.Text;
                     //获取命名空间
                     typeinfo.NamespaceName = Utils.GetNamespaceName(tds);
                     //获取字符
